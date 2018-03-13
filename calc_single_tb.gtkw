@@ -1,0 +1,202 @@
+[*]
+[*] GTKWave Analyzer v3.3.79 (w)1999-2017 BSI
+[*] Wed May  3 01:09:12 2017
+[*]
+[dumpfile] "/home/rlyshw/Development/cpeg324/CPEG324_Proj3/calc_single_tb.vcd"
+[dumpfile_mtime] "Wed May  3 01:06:20 2017"
+[dumpfile_size] 11758
+[savefile] "/home/rlyshw/Development/cpeg324/CPEG324_Proj3/calc_single_tb.gtkw"
+[timestart] 0
+[size] 1920 1149
+[pos] -1 -1
+*-25.238043 180000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] calc_single_0.
+[treeopen] calc_single_0.registerfile.
+[treeopen] calc_single_0.registerfile.reg1.
+[treeopen] calc_single_0.registerfile.reg2.
+[treeopen] calc_single_0.registerfile.reg3.
+[treeopen] calc_single_0.twos_comp.
+[treeopen] calc_single_0.twos_comp.adder.
+[sst_width] 213
+[signals_width] 353
+[sst_expanded] 1
+[sst_vpaned_height] 332
+@29
+calc_single_0.gclock
+@200
+-CALC SINGLE
+@28
+calc_single_0.clk
+@c00028
+calc_single_0.adder_neg[7:0]
+@28
+(0)calc_single_0.adder_neg[7:0]
+(1)calc_single_0.adder_neg[7:0]
+(2)calc_single_0.adder_neg[7:0]
+(3)calc_single_0.adder_neg[7:0]
+(4)calc_single_0.adder_neg[7:0]
+(5)calc_single_0.adder_neg[7:0]
+(6)calc_single_0.adder_neg[7:0]
+(7)calc_single_0.adder_neg[7:0]
+@1401200
+-group_end
+@c00028
+calc_single_0.adder_out[7:0]
+@28
+(0)calc_single_0.adder_out[7:0]
+(1)calc_single_0.adder_out[7:0]
+(2)calc_single_0.adder_out[7:0]
+(3)calc_single_0.adder_out[7:0]
+(4)calc_single_0.adder_out[7:0]
+(5)calc_single_0.adder_out[7:0]
+(6)calc_single_0.adder_out[7:0]
+(7)calc_single_0.adder_out[7:0]
+@1401200
+-group_end
+@28
+calc_single_0.adder_pos[7:0]
+calc_single_0.br_val[1:0]
+calc_single_0.inst[7:0]
+calc_single_0.instr[7:0]
+calc_single_0.op_sel[2:0]
+calc_single_0.outp[7:0]
+@c00028
+calc_single_0.pre_adder_neg[7:0]
+@28
+(0)calc_single_0.pre_adder_neg[7:0]
+(1)calc_single_0.pre_adder_neg[7:0]
+(2)calc_single_0.pre_adder_neg[7:0]
+(3)calc_single_0.pre_adder_neg[7:0]
+(4)calc_single_0.pre_adder_neg[7:0]
+(5)calc_single_0.pre_adder_neg[7:0]
+(6)calc_single_0.pre_adder_neg[7:0]
+(7)calc_single_0.pre_adder_neg[7:0]
+@1401200
+-group_end
+@28
+calc_single_0.pre_adder_neg_twoscomp[7:0]
+calc_single_0.print_enable
+calc_single_0.rd[1:0]
+calc_single_0.rs_content[7:0]
+calc_single_0.rt_content[7:0]
+calc_single_0.skip_sel
+calc_single_0.write_content[7:0]
+calc_single_0.write_enable
+@200
+-ADDER
+-BRANCHER
+@28
+calc_single_0.branchmodule.clk
+calc_single_0.branchmodule.d[1:0]
+calc_single_0.branchmodule.dec_val[1:0]
+calc_single_0.branchmodule.input_holder[7:0]
+calc_single_0.branchmodule.output_holder[7:0]
+calc_single_0.branchmodule.q[1:0]
+calc_single_0.branchmodule.sel
+calc_single_0.branchmodule.skip_sel
+calc_single_0.branchmodule.skip_value[1:0]
+@200
+-FETCHER
+@28
+calc_single_0.fetcher.clock
+calc_single_0.fetcher.inst[7:0]
+calc_single_0.fetcher.inst_out[7:0]
+@200
+-PRINTER
+@28
+calc_single_0.printmodule.en
+calc_single_0.printmodule.value[7:0]
+calc_single_0.printmodule.outp[7:0]
+@200
+-REG FILE
+@28
+calc_single_0.registerfile.en
+calc_single_0.registerfile.clk
+calc_single_0.registerfile.en1
+calc_single_0.registerfile.en2
+calc_single_0.registerfile.en3
+calc_single_0.registerfile.en4
+calc_single_0.registerfile.rd[1:0]
+calc_single_0.registerfile.reg1_out[7:0]
+calc_single_0.registerfile.reg2_out[7:0]
+calc_single_0.registerfile.reg3_out[7:0]
+calc_single_0.registerfile.reg4_out[7:0]
+calc_single_0.registerfile.rs[1:0]
+calc_single_0.registerfile.out_rs[7:0]
+calc_single_0.registerfile.rs_content[7:0]
+calc_single_0.registerfile.rt[1:0]
+calc_single_0.registerfile.out_rt[7:0]
+calc_single_0.registerfile.rt_content[7:0]
+calc_single_0.registerfile.rw[7:0]
+calc_single_0.registerfile.inp[7:0]
+@200
+-reg1
+@28
+calc_single_0.registerfile.reg1.clock_8bit
+calc_single_0.registerfile.reg1.enable_8bit
+calc_single_0.registerfile.reg1.i_8bit[7:0]
+calc_single_0.registerfile.reg1.left_reg_output[3:0]
+calc_single_0.registerfile.reg1.o_8bit[7:0]
+calc_single_0.registerfile.reg1.reg_8bit_content[7:0]
+calc_single_0.registerfile.reg1.right_reg_output[3:0]
+calc_single_0.registerfile.reg1.sel_8bit[1:0]
+calc_single_0.registerfile.reg1.shift_left_input_8bit
+calc_single_0.registerfile.reg1.shift_right_input_8bit
+@200
+-left reg
+@28
+calc_single_0.registerfile.reg1.left_reg.clock
+calc_single_0.registerfile.reg1.left_reg.enable
+calc_single_0.registerfile.reg1.left_reg.i[3:0]
+calc_single_0.registerfile.reg1.left_reg.o[3:0]
+calc_single_0.registerfile.reg1.left_reg.register_content[3:0]
+calc_single_0.registerfile.reg1.left_reg.sel[1:0]
+calc_single_0.registerfile.reg1.left_reg.shift_left_input
+calc_single_0.registerfile.reg1.left_reg.shift_right_input
+@200
+-right reg
+@28
+calc_single_0.registerfile.reg1.right_reg.clock
+calc_single_0.registerfile.reg1.right_reg.enable
+calc_single_0.registerfile.reg1.right_reg.i[3:0]
+calc_single_0.registerfile.reg1.right_reg.o[3:0]
+calc_single_0.registerfile.reg1.right_reg.register_content[3:0]
+calc_single_0.registerfile.reg1.right_reg.sel[1:0]
+calc_single_0.registerfile.reg1.right_reg.shift_left_input
+calc_single_0.registerfile.reg1.right_reg.shift_right_input
+@200
+-reg2
+@28
+calc_single_0.registerfile.reg2.clock_8bit
+calc_single_0.registerfile.reg2.enable_8bit
+calc_single_0.registerfile.reg2.i_8bit[7:0]
+calc_single_0.registerfile.reg2.left_reg_output[3:0]
+calc_single_0.registerfile.reg2.o_8bit[7:0]
+calc_single_0.registerfile.reg2.reg_8bit_content[7:0]
+calc_single_0.registerfile.reg2.right_reg_output[3:0]
+calc_single_0.registerfile.reg2.sel_8bit[1:0]
+calc_single_0.registerfile.reg2.shift_left_input_8bit
+calc_single_0.registerfile.reg2.shift_right_input_8bit
+@200
+-REG 3
+@28
+calc_single_0.registerfile.reg3.clock_8bit
+calc_single_0.registerfile.reg3.enable_8bit
+calc_single_0.registerfile.reg3.i_8bit[7:0]
+calc_single_0.registerfile.reg3.left_reg_output[3:0]
+calc_single_0.registerfile.reg3.o_8bit[7:0]
+calc_single_0.registerfile.reg3.reg_8bit_content[7:0]
+calc_single_0.registerfile.reg3.right_reg_output[3:0]
+calc_single_0.registerfile.reg3.sel_8bit[1:0]
+calc_single_0.registerfile.reg3.shift_left_input_8bit
+calc_single_0.registerfile.reg3.shift_right_input_8bit
+@200
+-TWOS COMP
+@28
+calc_single_0.twos_comp.inp[7:0]
+calc_single_0.twos_comp.outp[7:0]
+calc_single_0.twos_comp.temp[7:0]
+@200
+-adder
+[pattern_trace] 1
+[pattern_trace] 0
